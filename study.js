@@ -66,3 +66,14 @@ newDiv.setAttribute('name','divCreated');
 //create textNode
 const newDivtxt=document.createTextNode('Hello World');
 
+//add text to div
+newDiv.appendChild(newDivtxt);
+console.log(newDiv);
+
+//putting inside to container
+
+const position= document.querySelector('header .container');
+const headerh1= document.querySelector('header h1');
+
+position.insertBefore(newDiv,headerh1);
+newDiv.style.fontSize='35px';
