@@ -36,3 +36,6 @@ console.log(itemList.nextSibling);//not much usefull like fchild
 
 //next ElementSibling
 console.log(itemList.nextElementSibling);
+
+//previousSibling 
+console.log(itemList.previousSibling)
