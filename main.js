@@ -20,8 +20,12 @@ console.log(document.links);
 const headerT= document.getElementById('header-title');
 const header= document.getElementById('main-header');
 console.log(headerT);
-// headerT.textContent='I am textContent';-- not conside style
+// headerT.textContent='I am textContent';-- not consider style
 // headerT.innerText='I am innertext'; --> consider the style
+// Text content only returns the text value and not the HTML tags
+// textContent gets the content of all elements, including <script> and <style> elements
+// innerText returns only the text content and no HTML tags
+// innerText not gets the content of all elements, including <script> and <style> elements
  headerT.innerHTML='I am innerHTML';
  header.style.border='solid 3px black';
 
