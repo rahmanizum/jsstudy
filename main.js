@@ -21,7 +21,7 @@ const headerT= document.getElementById('header-title');
 const header= document.getElementById('main-header');
 console.log(headerT);
 // headerT.textContent='I am textContent';-- not conside style
-// headerT.innerText='I am innertext'; --> conside the style
+// headerT.innerText='I am innertext'; --> consider the style
  headerT.innerHTML='I am innerHTML';
  header.style.border='solid 3px black';
 
