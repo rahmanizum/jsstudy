@@ -24,3 +24,9 @@ itemList.children[1].style.backgroundColor='yellow';
 //First child and Last Child 
 console.log(itemList.firstChild);  //giving text not item 
 console.log(itemList.lastChild);   //giving text not item 
+
+//First element child and Last element child 
+console.log(itemList.firstElementChild);
+itemList.firstElementChild.style.fontWeight='bold';
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.style.fontSize='25px';
