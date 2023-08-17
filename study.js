@@ -62,3 +62,7 @@ newDiv.className='text-bg-primary';
 newDiv.id='created';
 //add attribute
 newDiv.setAttribute('name','divCreated');
+
+//create textNode
+const newDivtxt=document.createTextNode('Hello World');
+
