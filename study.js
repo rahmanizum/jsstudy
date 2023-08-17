@@ -30,3 +30,6 @@ console.log(itemList.firstElementChild);
 itemList.firstElementChild.style.fontWeight='bold';
 console.log(itemList.lastElementChild);
 itemList.lastElementChild.style.fontSize='25px';
+
+//nextSibling 
+console.log(itemList.nextSibling);//not much usefull like fchild
