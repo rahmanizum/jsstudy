@@ -62,7 +62,7 @@ console.log(headerT);
 
   lastItem= document.querySelector('.list-group-item:last-child');
   console.log(lastItem);
-  lastItem.innerHTML="Last child"
+  lastItem.innerHTML="Last child";
 
   secondItem= document.querySelector('.list-group-item:nth-child(2)');
   console.log(secondItem);
@@ -75,3 +75,11 @@ console.log(headerT);
   for(const value of odditems){
     value.style.color='red';
   }
+
+
+  //sharpner task 
+
+  const itemadded= document.querySelector('#newli');
+  console.log(itemadded);
+  itemadded.innerHTML='created';
+  
