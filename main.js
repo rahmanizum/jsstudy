@@ -5,7 +5,7 @@ console.log(document.domain);
 console.log(document.URL);
 console.log(document.title);
 console.log(typeof (title1));
-document.title=1234;
+// document.title=1234;
 console.log(document.doctype);
 console.log(document.head);
 console.log(typeof document.head);
