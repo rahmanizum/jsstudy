@@ -20,3 +20,7 @@ console.log(itemList.childNodes);
 console.log(itemList.children);
 console.log(itemList.children[1]);
 itemList.children[1].style.backgroundColor='yellow';
+
+//First child and Last Child 
+console.log(itemList.firstChild);  //giving text not item 
+console.log(itemList.lastChild);   //giving text not item 
