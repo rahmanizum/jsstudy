@@ -43,3 +43,13 @@ console.log(itemList.previousSibling)
 //previousElementSibling
 console.log(itemList.previousElementSibling);
 itemList.previousElementSibling.style.color='green';
+
+//creating Elements
+const Div=document.createElement('div');
+console.log(Div);
+const span=document.createElement('span');
+console.log(span);
+const h=document.createElement('h');
+console.log(h);
+const form=document.createElement('form');
+console.log(form);
