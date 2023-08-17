@@ -39,3 +39,7 @@ console.log(itemList.nextElementSibling);
 
 //previousSibling 
 console.log(itemList.previousSibling)
+
+//previousElementSibling
+console.log(itemList.previousElementSibling);
+itemList.previousElementSibling.style.color='green';
