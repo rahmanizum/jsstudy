@@ -53,3 +53,12 @@ const h=document.createElement('h');
 console.log(h);
 const form=document.createElement('form');
 console.log(form);
+//Create a div 
+
+const newDiv=document.createElement('div');
+//add class
+newDiv.className='text-bg-primary';
+//add id
+newDiv.id='created';
+//add attribute
+newDiv.setAttribute('name','divCreated');
