@@ -33,3 +33,6 @@ itemList.lastElementChild.style.fontSize='25px';
 
 //nextSibling 
 console.log(itemList.nextSibling);//not much usefull like fchild
+
+//next ElementSibling
+console.log(itemList.nextElementSibling);
